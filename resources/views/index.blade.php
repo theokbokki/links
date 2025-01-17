@@ -8,12 +8,14 @@
             @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="app">
-        <h1 class="app__title">Links</h1>
         <div class="app__intro">
-            <p>I call the machine on this page a <span>LinkPod<span>.</p>
-            <p>It’s purpose is to share links I find cool, so you can click on them and maybe find them cool as well :))</p>
+            <h1 class="app__title">Links</h1>
+            <div class="app__subtitle">
+                <p>I call the machine on this page a <span>LinkPod<span>.</p>
+                <p>It’s purpose is to share links I find cool, so you can click on them and maybe find them cool as well :))</p>
+            </div>
+            <a href="#" class="app__link">Read more</a>
         </div>
-        <a href="#" class="app__link">Read more</a>
         <x-linkpod/>
     </body>
 </html>
