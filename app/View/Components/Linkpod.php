@@ -15,8 +15,33 @@ class Linkpod extends Component
     {
         $this->links = collect();
 
+        // $this->addLink(
+        //     'Adrien Leloup\'s personal website',
+        //     'https://leloup.dev'
+        // );
+
         $this->addLink(
-            'Adrien Leloup\'s personal website',
+            'Cap, a screen recording app.',
+            'https://leloup.dev'
+        );
+
+        $this->addLink(
+            'Hiker landing page',
+            'https://leloup.dev'
+        );
+
+        $this->addLink(
+            'Henry from online\'s personal website',
+            'https://leloup.dev'
+        );
+
+        $this->addLink(
+            'Too Much World: Is the Internet Dead?',
+            'https://leloup.dev'
+        );
+
+        $this->addLink(
+            'Ghostty terminal emulator',
             'https://leloup.dev'
         );
     }

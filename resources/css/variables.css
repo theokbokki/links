@@ -1,13 +1,37 @@
+@font-face {
+    font-family: 'Departure Mono';
+    src: url('../fonts/DepartureMono-Regular.woff2') format('woff2'),
+        url('../fonts/DepartureMono-Regular.woff') format('woff'),
+        url('../fonts/DepartureMono-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
     --grey-50: #fafafa;
     --grey-100: #f5f5f5;
+    --grey-100-50: #f5f5f580;
     --grey-200: #e5e5e5;
+    --grey-200-50: #e5e5e580;
     --grey-300: #d4d4d4;
+    --grey-300-50: #d4d4d480;
     --grey-400: #a3a3a3;
+    --grey-400-50: #a3a3a340;
     --grey-500: #737373;
     --grey-600: #525252;
     --grey-700: #404040;
+    --grey-700-60: #40404099;
+    --grey-700-90: #404040e6;
     --grey-800: #262626;
+    --grey-800-25: #26262640;
+
+    --dark-grey: #282828;
+
+    --dark-green: #869C30;
+    --green: #A8C64E;
 
     --sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    --mono: 'Departure Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
