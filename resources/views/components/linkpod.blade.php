@@ -1,6 +1,7 @@
 <article class="linkpod">
     <h2 class="linkpod__title sro">LinkPod</h2>
     <div class="linkpod__main linkpod__screen">
+        <x-readmore/>
         <div class="linkpod__links">
             @foreach($links as $link)
                 <x-link :$link/>

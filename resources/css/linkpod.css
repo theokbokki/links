@@ -30,7 +30,6 @@
 .linkpod__main {
     grid-column: 1/-1;
     height: 20rem;
-    padding: 0 1.25rem;
     box-shadow:
         0 0 0 4px rgba(255, 255, 255, 0.2) inset,
         -1px 1px 4px 0 var(--grey-800-25) inset;
@@ -115,7 +114,7 @@
 }
 
 .linkpod__links {
-    padding: 2rem 0;
+    padding: 2rem 1.25rem;
     margin: 0.25rem 0;
     height: 19.5rem;
     overflow: auto;

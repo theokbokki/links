@@ -14,7 +14,7 @@
                 <p>I call the machine on this page a <span>LinkPod<span>.</p>
                 <p>It’s purpose is to share links I find cool, so you can click on them and maybe find them cool as well :))</p>
             </div>
-            <a href="#" class="app__link">Read more</a>
+            <a href="#read-more" class="app__link">Read more</a>
         </div>
         <x-linkpod/>
     </body>
