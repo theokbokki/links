@@ -34,6 +34,11 @@ class Linkpod extends Component
             'GJP Henry\'s personal website',
             'https://gjphenry.be/fr/accueil/'
         );
+
+        $this->addLink(
+            'Making space for a handmade web',
+            'https://www.figma.com/blog/making-space-for-a-handmade-web/',
+        );
     }
 
     public function addLink(string $title, string $url): void
